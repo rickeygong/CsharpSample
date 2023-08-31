@@ -13,6 +13,7 @@ namespace CsharpSample.Chapter2_BubbleSort
             int[] list = new int[] { 54, 26, 93, 17, 77, 31, 44, 55, 20 };
             int[] insertSortList = InsertSort(list,"Des");
             string sList = string.Join(",", insertSortList);
+
             Console.WriteLine(sList);
             Console.ReadKey();
         }
